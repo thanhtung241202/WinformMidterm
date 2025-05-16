@@ -15,5 +15,7 @@ namespace Phan2.Models
         public DateTime Happened_time { get; set; } = DateTime.UtcNow;
         public string Action_desc { get; set; }
         public string Note { get; set; } = null!;
+
+        public ICollection<Bank_account> Bank_accounts = [];
     }
 }

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
             btnExit = new Button();
             btnSave = new Button();
             btnAdd = new Button();
@@ -40,12 +41,16 @@
             lbName = new Label();
             lbID = new Label();
             dataGridView1 = new DataGridView();
+            dgvID = new DataGridViewTextBoxColumn();
+            dgvName = new DataGridViewTextBoxColumn();
+            dgvDayOfBirth = new DataGridViewTextBoxColumn();
+            dgvEmail = new DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
             // btnExit
             // 
-            btnExit.Location = new Point(344, 187);
+            btnExit.Location = new Point(320, 177);
             btnExit.Name = "btnExit";
             btnExit.Size = new Size(75, 23);
             btnExit.TabIndex = 21;
@@ -54,7 +59,7 @@
             // 
             // btnSave
             // 
-            btnSave.Location = new Point(263, 187);
+            btnSave.Location = new Point(239, 177);
             btnSave.Name = "btnSave";
             btnSave.Size = new Size(75, 23);
             btnSave.TabIndex = 20;
@@ -63,7 +68,7 @@
             // 
             // btnAdd
             // 
-            btnAdd.Location = new Point(182, 187);
+            btnAdd.Location = new Point(158, 177);
             btnAdd.Name = "btnAdd";
             btnAdd.Size = new Size(75, 23);
             btnAdd.TabIndex = 19;
@@ -136,17 +141,47 @@
             // 
             // dataGridView1
             // 
+            dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle2.BackColor = SystemColors.Control;
+            dataGridViewCellStyle2.Font = new Font("Segoe UI", 9F);
+            dataGridViewCellStyle2.ForeColor = SystemColors.WindowText;
+            dataGridViewCellStyle2.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = DataGridViewTriState.True;
+            dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(12, 266);
+            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { dgvID, dgvName, dgvDayOfBirth, dgvEmail });
+            dataGridView1.Location = new Point(12, 222);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.Size = new Size(536, 150);
             dataGridView1.TabIndex = 22;
+            // 
+            // dgvID
+            // 
+            dgvID.HeaderText = "Mã số";
+            dgvID.Name = "dgvID";
+            // 
+            // dgvName
+            // 
+            dgvName.HeaderText = "Họ tên";
+            dgvName.Name = "dgvName";
+            // 
+            // dgvDayOfBirth
+            // 
+            dgvDayOfBirth.HeaderText = "Ngày sinh";
+            dgvDayOfBirth.Name = "dgvDayOfBirth";
+            // 
+            // dgvEmail
+            // 
+            dgvEmail.HeaderText = "Email";
+            dgvEmail.Name = "dgvEmail";
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(553, 450);
+            ClientSize = new Size(553, 385);
             Controls.Add(dataGridView1);
             Controls.Add(btnExit);
             Controls.Add(btnSave);
@@ -160,7 +195,7 @@
             Controls.Add(lbName);
             Controls.Add(lbID);
             Name = "Form1";
-            Text = "Form1";
+            Text = "Phần 1";
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
             PerformLayout();
@@ -180,5 +215,9 @@
         private Label lbName;
         private Label lbID;
         private DataGridView dataGridView1;
+        private DataGridViewTextBoxColumn dgvID;
+        private DataGridViewTextBoxColumn dgvName;
+        private DataGridViewTextBoxColumn dgvDayOfBirth;
+        private DataGridViewTextBoxColumn dgvEmail;
     }
 }

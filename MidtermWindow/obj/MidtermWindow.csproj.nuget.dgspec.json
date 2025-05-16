@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Administrator\\source\\repos\\MidtermWindow\\MidtermWindow\\MidtermWindow.csproj": {}
+    "C:\\Users\\Administrator\\Desktop\\WinformMidterm\\MidtermWindow\\MidtermWindow.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Administrator\\source\\repos\\MidtermWindow\\MidtermWindow\\MidtermWindow.csproj": {
+    "C:\\Users\\Administrator\\Desktop\\WinformMidterm\\MidtermWindow\\MidtermWindow.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrator\\source\\repos\\MidtermWindow\\MidtermWindow\\MidtermWindow.csproj",
+        "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\WinformMidterm\\MidtermWindow\\MidtermWindow.csproj",
         "projectName": "MidtermWindow",
-        "projectPath": "C:\\Users\\Administrator\\source\\repos\\MidtermWindow\\MidtermWindow\\MidtermWindow.csproj",
+        "projectPath": "C:\\Users\\Administrator\\Desktop\\WinformMidterm\\MidtermWindow\\MidtermWindow.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrator\\source\\repos\\MidtermWindow\\MidtermWindow\\obj\\",
+        "outputPath": "C:\\Users\\Administrator\\Desktop\\WinformMidterm\\MidtermWindow\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -49,6 +49,22 @@
       "frameworks": {
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite.Core": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

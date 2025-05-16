@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MidtermWindow", "MidtermWindow.csproj", "{48AED835-D419-4082-B18C-A78F757EEB12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Phan1", "..\Phan1\Phan1.csproj", "{F9303519-EA57-4956-90EC-E1F37BD45F18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Phan2", "..\Phan2\Phan2.csproj", "{71E616AB-1CE0-46EB-9BB0-4DBF5B8897E7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{48AED835-D419-4082-B18C-A78F757EEB12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48AED835-D419-4082-B18C-A78F757EEB12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48AED835-D419-4082-B18C-A78F757EEB12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48AED835-D419-4082-B18C-A78F757EEB12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9303519-EA57-4956-90EC-E1F37BD45F18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9303519-EA57-4956-90EC-E1F37BD45F18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9303519-EA57-4956-90EC-E1F37BD45F18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9303519-EA57-4956-90EC-E1F37BD45F18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71E616AB-1CE0-46EB-9BB0-4DBF5B8897E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71E616AB-1CE0-46EB-9BB0-4DBF5B8897E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71E616AB-1CE0-46EB-9BB0-4DBF5B8897E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71E616AB-1CE0-46EB-9BB0-4DBF5B8897E7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MidtermWindow")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+75c2aecced69ec5ada9273881c0f5276b16cf550")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aeb749de6909ea6d3f90d19cb7424847320fc64b")]
 [assembly: System.Reflection.AssemblyProductAttribute("MidtermWindow")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MidtermWindow")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -24,7 +24,9 @@ namespace Phan2.Models
         public string Password { get; set; } 
 
         public Bank_account() { }
+
         
+
 
     }
 }

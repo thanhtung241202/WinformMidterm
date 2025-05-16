@@ -1,8 +1,8 @@
 namespace Phan2
 {
-    public partial class Form1 : Form
+    public partial class LoginFrm : Form
     {
-        public Form1()
+        public LoginFrm()
         {
             InitializeComponent();
         }
